@@ -1,0 +1,227 @@
+:root{
+	--primary: #0550aa;
+	--secondary: #71bbf1;
+	--secnew: #f0f4c3;
+	--secsales: #fff59d;
+	--code: #003464;
+	--codenew: #006434;
+	--codesales: #f9a825;
+	--title: #5c58bd;
+    --white: #ffffff;
+    --price: #f00700;
+    --new: #05aa50;
+    --sales: #ffd600;
+};
+
+.article{
+	margin-top: 20px;
+}
+
+.card-panel.article{
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0px 1px 3px rgba(90,90,90,0.1);
+	display: grid;
+	grid-template-columns: 2fr 6fr;
+	grid-template-areas: "image details";
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 10px solid var(--primary);
+}
+
+.card-new.article{
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0px 1px 3px rgba(90,90,90,0.1);
+	display: grid;
+	grid-template-columns: 2fr 6fr;
+	grid-template-areas: "image details";
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 10px solid var(--new);
+}
+
+.card-sales.article{
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0px 1px 3px rgba(90,90,90,0.1);
+	display: grid;
+	grid-template-columns: 2fr 6fr;
+	grid-template-areas: "image details";
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 10px solid var(--sales);
+}
+
+.article img{
+	grid-area: image;
+	max-width: 100%;
+
+}
+
+.article-code{
+	margin-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: var(--code);
+}
+
+.article-code-new{
+	margin-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: var(--codenew);
+}
+
+.article-code-sales{
+	margin-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: var(--codesales);
+}
+
+.article-title{
+	margin-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: var(--primary);
+}
+
+.article-title-new{
+	margin-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: var(--new);
+}
+
+.article-title-sales{
+	margin-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: var(--sales);
+}
+
+.article-info{
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+	margin-top: 6px;
+	padding-left: 10px;
+	background-color: var(--secondary);
+}
+
+.article-info-new{
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+	margin-top: 6px;
+	padding-left: 10px;
+	background-color: var(--secnew);
+}
+
+.article-info-sales{
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+	margin-top: 6px;
+	padding-left: 10px;
+	background-color: var(--secsales);
+}
+
+.article-price{
+	grid-area: details;
+	margin-top: 10px;
+    padding-left: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+	background-color: var(--white);
+    color: var(--price);
+}
+
+a{
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 5px;
+}
+
+.pnews{
+	font-family: Tahoma, Geneva, sans-serif;
+    color: var(--new);
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 0px;
+}
+
+.psales{
+	font-family: Tahoma, Geneva, sans-serif;
+    color: var(--sales);
+    font-size: 25px;
+    margin-left: 10px;
+    line-height: 0px;
+}
+
+.upper{
+		padding-left: 10px; 
+}
+
+#titulo{
+	text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: var(--primary);
+    line-height: 0px;
+}
+
+.logo{
+margin-top: 10px; 
+margin-bottom: 10px; 
+max-height: 125px;
+max-width: 175px;
+width: 50px;
+height: 45px;
+}
+
+.top{
+	list-style: none;
+    position:fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.page{
+	margin-top: 75px;
+}
+
+.titulotop{
+	margin-left: 10px
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    line-height: 0px;
+}
+
+.nvbtn{
+	color: black;
+	margin-top: 5px;
+	z-index: 6;
+}
+
+.btm{
+	margin-left: 15px;
+}
+
+.btnindx{
+	margin-top: 10px;
+}
+
+.ndx{
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
