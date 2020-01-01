@@ -206,6 +206,7 @@ var articulos =
 ['M-0387','0','Protector de hojas','Protector de hojas.<br>0.5mm. 100 hojas.','¢2.795,00','','disponible',12],
 ['M-0388','0','Protector de hojas','Set 100 protectores delgado para hojas.','¢1.350,00','','disponible',12],
 ['M-0389','0','Ojos móviles','Bolsa de ojitos móviles.<br>Tamaño: 10mm.','¢535,00','','disponible',58],
+['M-0391','0','Ojos móviles','Bolsa de 20 ojitos móviles.<br>Tamaño: 20mm.','¢560,00','','disponible',58],
 ['M-0392','0','Ojos móviles','Bolsa 60 piezas de ojitos móviles color Neón.','¢500,00','','disponible',58],
 ['M-0393','0','Ojos móviles','Set 10 ojitos negros móviles.','¢365,00','','disponible',58],
 ['M-0394','0','Ojos móviles','Set 5 ojitos negros móviles.','¢300,00','','disponible',58],
