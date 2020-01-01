@@ -51,21 +51,14 @@
 	grid-template-columns: 2fr 6fr;
 	grid-template-areas: "image details";
 	position: relative;
-	margin-left: 20px;
-	margin-right: 20px;
 	border: 10px solid var(--sales);
 }
 
-.article img{
-	grid-area: image;
-	max-width: 100%;
-
-}
 
 .article-code{
 	margin-left: 10px;
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: white;
     background-color: var(--code);
 }
@@ -73,7 +66,7 @@
 .article-code-new{
 	margin-left: 10px;
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: white;
     background-color: var(--codenew);
 }
@@ -81,7 +74,7 @@
 .article-code-sales{
 	margin-left: 10px;
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: white;
     background-color: var(--codesales);
 }
@@ -89,7 +82,7 @@
 .article-title{
 	margin-left: 10px;
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: white;
     background-color: var(--primary);
 }
@@ -97,7 +90,7 @@
 .article-title-new{
 	margin-left: 10px;
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: white;
     background-color: var(--new);
 }
@@ -105,14 +98,14 @@
 .article-title-sales{
 	margin-left: 10px;
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 4vw;
     color: white;
     background-color: var(--sales);
 }
 
 .article-info{
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 	margin-top: 6px;
 	padding-left: 10px;
 	background-color: var(--secondary);
@@ -120,7 +113,7 @@
 
 .article-info-new{
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 	margin-top: 6px;
 	padding-left: 10px;
 	background-color: var(--secnew);
@@ -128,7 +121,7 @@
 
 .article-info-sales{
 	font-family: Tahoma, Geneva, sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
 	margin-top: 6px;
 	padding-left: 10px;
 	background-color: var(--secsales);
@@ -136,10 +129,9 @@
 
 .article-price{
 	grid-area: details;
-	margin-top: 10px;
     padding-left: 10px;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 25px;
+    font-size: 3vw;
 	background-color: var(--white);
     color: var(--price);
 }
@@ -154,7 +146,7 @@ a{
 .pnews{
 	font-family: Tahoma, Geneva, sans-serif;
     color: var(--new);
-    font-size: 25px;
+    font-size: 3vw;
     margin-left: 10px;
     line-height: 0px;
 }
@@ -162,7 +154,7 @@ a{
 .psales{
 	font-family: Tahoma, Geneva, sans-serif;
     color: var(--sales);
-    font-size: 25px;
+    font-size: 3vw;
     margin-left: 10px;
     line-height: 0px;
 }
@@ -174,7 +166,7 @@ a{
 #titulo{
 	text-align: center;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 3vw;
     color: var(--primary);
     line-height: 0px;
 }
@@ -200,9 +192,9 @@ height: 45px;
 }
 
 .titulotop{
-	margin-left: 10px
+	margin-left: 10vw;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     color: white;
     line-height: 0px;
 }
