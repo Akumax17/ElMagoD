@@ -701,7 +701,7 @@ function llenar(){
 
 if (articulos[i][6] == 'disponible' && articulos[i][7] == indice && articulos[i][5] == ""){
 	counter++;
-	document.getElementById("cards").innerHTML += "<div class='card-panel blue darken-2 article bg row'><img class='col s12' src='/img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
+	document.getElementById("cards").innerHTML += "<div class='card-panel blue darken-2 article bg row'><img class='col s12' src='./img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
 												"<div class='article-details'>"+
 												"<div class='article-code col s3'>"+articulos[i][0]+"</div>"+
 												"<div class='article-title col s9'>"+articulos[i][2]+"</div>"+
@@ -713,7 +713,7 @@ if (articulos[i][6] == 'disponible' && articulos[i][7] == indice && articulos[i]
 
 if (articulos[i][6] == 'disponible' && articulos[i][7] == indice && articulos[i][5] == "nuevo"){
 	counter++;
-	document.getElementById("cards").innerHTML += "<div class='card-new lime lighten-1 article bg row'><img class='col s12' src='/img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
+	document.getElementById("cards").innerHTML += "<div class='card-new lime lighten-1 article bg row'><img class='col s12' src='./img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
 												"<div class='article-details'>"+
 												"<div class='article-code-new col s3'>"+articulos[i][0]+"</div>"+
 												"<div class='article-title-new col s9'>"+articulos[i][2]+"</div>"+
@@ -726,7 +726,7 @@ if (articulos[i][6] == 'disponible' && articulos[i][7] == indice && articulos[i]
 
 if (articulos[i][6] == 'disponible' && articulos[i][7] == indice && articulos[i][5] == "oferta"){
 	counter++;
-	document.getElementById("cards").innerHTML += "<div class='card-sales yellow accent-2 article bg row'><img class='col s12' src='/img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
+	document.getElementById("cards").innerHTML += "<div class='card-sales yellow accent-2 article bg row'><img class='col s12' src='./img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
 												"<div class='article-details'>"+
 												"<div class='article-code-sales col s3'>"+articulos[i][0]+"</div>"+
 												"<div class='article-title-sales col s9'>"+articulos[i][2]+"</div>"+
@@ -790,7 +790,7 @@ document.getElementById("cards").innerHTML = "";
   for (var i = 0; i < z; i++){
 
 if (articulos[i][6] == 'disponible' && articulos[i][5] == cat){
-	document.getElementById("cards").innerHTML += "<div class='card-panel article row'><img class='col s12' src='/img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
+	document.getElementById("cards").innerHTML += "<div class='card-panel article row'><img class='col s12' src='./img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
 												"<div class='article-details'>"+
 												"<div class='article-code'>"+articulos[i][0]+"</div>"+
 												"<div class='article-title'>"+articulos[i][2]+"</div>"+
@@ -811,7 +811,7 @@ function llenarNuevos(){
 
 if (articulos[i][6] == 'disponible' && articulos[i][5] == "nuevo"){
 	counter++;
-	document.getElementById("cards").innerHTML += "<div class='card-new lime lighten-1 article bg row'><img class='col s12' src='/img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
+	document.getElementById("cards").innerHTML += "<div class='card-new lime lighten-1 article bg row'><img class='col s12' src='./img/"+articulos[i][0]+".png' alt='elmago thumb'>"+
 												"<div class='article-details'>"+
 												"<div class='article-code-new col s3'>"+articulos[i][0]+"</div>"+
 												"<div class='article-title-new col s9'>"+articulos[i][2]+"</div>"+
@@ -851,7 +851,7 @@ function llenarOfertas(){
 
 if (articulos[i][6] == 'disponible' && articulos[i][5] == "oferta"){
 	counter++;
-	document.getElementById("cards").innerHTML += "<div class='card-sales yellow accent-2 article bg row'><div class='row'><img class='col s12' src='/img/"+articulos[i][0]+".png' alt='elmago thumb'></div>"+
+	document.getElementById("cards").innerHTML += "<div class='card-sales yellow accent-2 article bg row'><div class='row'><img class='col s12' src='./img/"+articulos[i][0]+".png' alt='elmago thumb'></div>"+
 												"<div class='article-details'>"+
 												"<div class='article-code-sales col s3'>"+articulos[i][0]+"</div>"+
 												"<div class='article-title-sales col s9'>"+articulos[i][2]+"</div>"+
