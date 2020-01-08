@@ -82,7 +82,7 @@ var articulos =
 ['M-0094','0','Marcadores permanentes','Set 3 marcadores cd/dvd colores','¢460,00','','disponible',25],
 ['M-0095','0','Marcadores 2 puntas','Set 12 marcadores dvd/cd 2 puntas','¢2.850,00','','disponible',25],
 ['M-0096','0','Tijeras escolares','Set 12 tijeras escolar punta roma','¢2.925,00','','disponible',55],
-['M-0097','0','Tijeras punta roma','Tijera punta roma 5.25 en blister','¢450,00','','disponible',55],
+['M-0097','0','Tijeras punta roma','Tijera punta roma 5.25 en blister','¢450,00','','no',55],
 ['M-0098','0','Tijeras punta roma escolar','Tira 12 tijeras punta roma escolar 5.25','¢2.750,00','','disponible',55],
 ['M-0101','0','Marcadores a colores','Set 12 marcadores a colores en agua','¢2.575,00','','disponible',26],
 ['M-0102','0','Plumones en agua','Set 12 plumones en agua a colores','¢495,00','','disponible',26],
