@@ -131,7 +131,7 @@
 	grid-area: details;
     padding-left: 10px;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
 	background-color: var(--white);
     color: var(--price);
 }
